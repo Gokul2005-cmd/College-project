@@ -1,6 +1,6 @@
 import { Leaf } from 'lucide-react';
 
-const Hero = () => {
+const Home = () => {  // ✅ Changed from Hero to Home
   const stats = [
     { value: '10,000+', label: 'Active Farmers' },
     { value: '50+', label: 'Crops Covered' },
@@ -78,4 +78,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;  
